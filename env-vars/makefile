@@ -8,7 +8,7 @@ $(EXEC): $(OBJS)
 	gcc $(OBJS) -o $(EXEC)
 
 %.o: %.c
-	gcc -c $< -o $@
+	gcc -g -c $< -o $@
 
 clean:
 	rm -f *.o *.out $(EXEC)
