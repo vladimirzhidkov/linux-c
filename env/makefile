@@ -1,7 +1,7 @@
 #-*- Makefile -*-
 
-EXEC = a.out
-OBJS = env-vars.o 
+EXEC = env 
+OBJS = env.o 
 
 
 $(EXEC): $(OBJS)
