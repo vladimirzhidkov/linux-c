@@ -1,6 +1,6 @@
 #-*- Makefile -*-
 
-EXEC = env 
+EXEC = a.out 
 OBJS = env.o 
 
 
